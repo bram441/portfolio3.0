@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "personalPortfolio",
-  "homepage": "http://bram441.github.io/portfolio3.0",
+  "homepage": "https://bram441.github.io/portfolio3.0",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
