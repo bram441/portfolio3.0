@@ -51,7 +51,7 @@ function Contact(props) {
               <a
                 {...styles}
                 className="general-btn"
-                href="/De_Coster_Bram_Cv.pdf"
+                href="../../../public/De_Coster_Bram_Cv"
                 download="De_Coster_Bram_Cv"
               >
                 See my Resume

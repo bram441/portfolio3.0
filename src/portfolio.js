@@ -14,8 +14,8 @@ const greeting = {
   logo_name: "",
   nickname: "Brum",
   full_name: "Bram De Coster",
-  subTitle:
-    "Full stack developer. You can't get there with half work, only with the full 100%.",
+  subTitle: `Full stack developer. 
+  Can't get there with half work, only with the full 100%.`,
   resumeLink: "",
   mail: "mailto:bram.decoster1@gmail.com",
 };
