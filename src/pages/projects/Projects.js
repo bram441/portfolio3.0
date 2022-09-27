@@ -11,13 +11,6 @@ import { style } from "glamor";
 function Projects(props) {
   const theme = props.theme;
 
-  const styles = style({
-    backgroundColor: `${theme.accentBright}`,
-    ":hover": {
-      boxShadow: `0 5px 15px ${theme.accentBright}`,
-    },
-  });
-
   return (
     <div className="projects-main">
       <Header theme={theme} setTheme={props.setTheme} />
@@ -52,13 +45,6 @@ function Projects(props) {
       <br />
       <br />
       <br />
-      <a
-        {...styles}
-        className="general-btn"
-        href="https://github.com/harikanani"
-      >
-        More Projects (Github)
-      </a>
       <br />
       <br />
       <Footer theme={props.theme} onToggle={props.onToggle} />
