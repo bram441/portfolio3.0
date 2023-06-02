@@ -36,6 +36,7 @@ const skills = {
         "⚡ Building responsive website front end using ReactJS",
         "⚡ Developing mobile applications for android and ios",
         "⚡ Creating application backend in Node",
+        "⚡ Creating lowcode applications in Microsoft Dynamics 365 and Microsoft power apps",
       ],
       softwareSkills: [
         {
@@ -130,6 +131,13 @@ const skills = {
             color: "#3776AB",
           },
         },
+        {
+          skillName: "Microsoft",
+          fontAwesomeClassname: "simple-icons:Microsoft",
+          style: {
+            color: "#3776AB",
+          },
+        },
       ],
     },
     {
@@ -216,6 +224,24 @@ const experience = {
     "Right now I'm in my final year of my study and I'm going to complete an internship from February till may 2023.",
   header_image_path: "experience.svg",
   sections: [
+    {
+      title: "Internships",
+      experiences: [
+        {
+          title: "Technical consultant",
+          company: "Itineris",
+          company_url: "https://www.itineris.net/",
+          logo_path: "Itineris.webp",
+          duration: "Feb 2023 - May 2023",
+          location: "Ghent",
+          description: `
+          Working with the Europe regulated business unit, more specifically working on inovation for automatic leakdetection.
+          Here I have gained my Microsoft Dynamics 365 knowledge and skills.
+          `,
+          color: "#0071C5",
+        },
+      ],
+    },
     {
       title: "Work Experience",
       experiences: [
@@ -304,19 +330,6 @@ const projects = {
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
-        },
-      ],
-    },
-    {
-      id: "1",
-      name: "Student meeting app",
-      url: "",
-      description:
-        "Still very much in early development, can't share much about this project, yet ;).",
-      languages: [
-        {
-          name: "Android",
-          iconifyClass: "logos-android",
         },
       ],
     },
